@@ -1,0 +1,130 @@
+$base-font-size: 16px;
+
+$primary-font-stack: Arial, Helvetica, sans-serif;
+$secondary-font-stack: 'Spectral', 'Times New Roman', serif;
+$primary-text-color: #f0f0f0;
+
+$primary-color: #37bb78;
+$secondary-color: #11718f;
+
+$primary-link-color: #fff;
+$primary-link-hover-color: $primary-color;
+
+$primary-button-color: $primary-color;
+$primary-button-hover-color: lighten($primary-button-color, 10%);
+$secondary-button-color: $secondary-color;
+$secondary-button-hover-color: darken($secondary-button-color, 10%);
+
+body {
+	font-family: $primary-font-stack;
+	font-size: $base-font-size;
+	text-rendering: optimizeLegibility;
+	line-height: 1.5em;
+	color: $primary-text-color;
+	background-color: #2b2c35;
+}
+html {
+	font-size: $base-font-size;
+}
+
+@media (min-width: 480px) {
+	body, html {
+		font-size: $base-font-size * 1.25;
+	}
+}
+
+.constraint {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+}
+
+a {
+    color: $primary-link-color;
+    text-decoration: underline;
+
+    &:hover {
+        color: $primary-link-hover-color;
+    }
+}
+
+h1, h2, h3, h4 {
+	font-family: $secondary-font-stack;
+	margin-bottom: 1.5rem;
+}
+
+h1 {
+	font-size: 2.25em;
+	line-height: 1.2em;
+}
+h2 {
+	font-size: 1.75em;
+	line-height: 1.2em;
+}
+h3 {
+	font-size: 1.35em;
+	line-height: 1.3em;
+}
+h4 {
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+@media (min-width: 480px) {
+	h1 {
+		font-size: 3em;
+		line-height: 1.2em;
+	}
+	h2 {
+		font-size: 2em;
+		line-height: 1.2em;
+	}
+	h3 {
+		font-size: 1.5em;
+		line-height: 1.3em;
+	}
+	h4 {
+		font-size: 1.25em;
+		line-height: 1.5em;
+	}
+}
+
+hr {
+	border: 0;
+	height: 3rem;
+	width: 65%;
+	max-width: 400px;
+	margin: 3rem auto;
+	background: url('/assets/images/hr.svg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+a.button {
+    background: $primary-button-color;
+    padding: .5em 1em;
+    display: inline-block;
+    border-radius: 4px;
+    margin-bottom: 4px;
+	text-decoration: none;
+	color: #222222;
+	border-bottom: 2px solid darken($primary-button-color, 30%);
+
+	&:hover {
+		background: $primary-button-hover-color;
+	}
+}
+
+
+.embed {
+	position: relative;
+	padding-top: calc(56.25% + (3rem * .5625));
+	margin: 1.5rem -1.5rem;
+
+	iframe {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+	}
+}

@@ -1,0 +1,54 @@
+.content {
+    margin: 3rem 0;
+    
+    .constraint {
+        max-width: 60ch;
+    }
+
+    p, ul, ol, blockquote {
+        & + p,
+        & + ul,
+        & + ol,
+        & + blockquote,
+        & + h2,
+        & + h3 {
+            margin-top: 1.5rem;
+        }
+    }
+
+    p.center {
+        text-align: center;
+    }
+
+    ul.thumbnail-list {
+        list-style: none;
+
+        li {
+            margin-bottom: 1em;
+
+            a {
+                display: flex;
+                align-items: center;
+                border: 1px solid;
+                border-radius: 4px;
+                overflow: hidden;
+                text-decoration: none;
+
+                img {
+                    margin-right: 1em;
+
+                }
+            }
+        }
+    }
+
+    blockquote {
+        border-left: 4px solid;
+        padding: .5em 0 .5em 1.5em;
+
+        cite {
+            font-style: italic;
+            font-weight: bold;
+        }
+    }
+}

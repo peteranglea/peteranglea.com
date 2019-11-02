@@ -1,0 +1,33 @@
+.hero {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #18181e;
+    background-image: url('/assets/images/waves.svg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3rem;
+    clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%);
+
+    img.portrait {
+        border-radius: 100%;
+        max-width: 65%;
+    }
+
+    p.subtitle {
+        font-size: 1.25em;
+        line-height: 1.5em;
+        color: #909199;
+        max-width: 45ch;
+        margin: 0 auto;
+    }
+
+    p.hero_image {
+        margin-bottom: 1.5rem;
+
+        &.booklet {
+            img {
+                max-height: 300px;
+            }
+        }
+    }
+}

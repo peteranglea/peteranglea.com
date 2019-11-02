@@ -1,0 +1,157 @@
+header {
+    padding: 1.5em 0;
+
+    .constraint {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .header-home {
+        font-size: 8vw;
+        font-weight: bold;
+        font-family: $secondary-font-stack;
+        a {
+            text-decoration: none;
+        }
+
+        @media (min-width: 400px) {
+            font-size: 2em;
+        }
+    }
+
+    $header-nav-text-color: #c0c2ca;
+
+    .header-nav {
+        display: none;
+        flex-basis: 100vw;
+        font-size: 1rem;
+        line-height: 1.5em;
+        text-align: center;
+        margin: 1.5rem -1.5rem 0;
+
+        .open & {
+            display: block;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                & + li {
+
+                    &::before {
+                        content: "";
+                        display: block;
+                        width: 50px;
+                        margin: 0 auto;
+                        border-top: 1px solid #636571;
+                    }
+                }
+
+                a {
+                    display: block;
+                    padding: 1em;
+                    text-decoration: none;
+                    color: $header-nav-text-color;
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        
+        @media (min-width: 720px) {
+            display: block;
+            flex-basis: auto;
+            margin: 0;
+            background-color: transparent;
+            text-align: left;
+
+            ul {
+                display: flex;
+                li {
+                    a {
+                        padding: 0;
+                    }
+
+                    & + li {
+                        margin-left: 1.5em;
+
+                        &::before {
+                            content: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .header-nav-toggle {
+        .menu-button {
+            flex-basis: 66px;
+    
+            button {
+                display: flex;
+                align-items: center;
+                background: transparent;
+                border: none;
+                font-size: 0.8rem;
+                padding: 1em .5em;
+                width: 100%;
+                //border-radius: 4px;
+                color: $header-nav-text-color;
+                text-transform: uppercase;
+                font: inherit;
+                line-height: 1em;
+    
+                span {
+                    display: block;
+                    width: 30px;
+                    height: 3px;
+                    background: $header-nav-text-color;
+                    border-radius: 2px;
+                    position: relative;
+                    margin: 0 .5em;
+    
+                    &::before, &::after {
+                        content: "";
+                        display: block;
+                        width: 100%;
+                        height: 3px;
+                        border-radius: 2px;
+                        background: $header-nav-text-color;
+                        position: absolute;
+                        transition: 150ms ease;
+                    }
+    
+                    &::before {
+                        transform: translateY(-8px);
+                    }
+    
+                    &::after {
+                        transform: translateY(8px);
+                    }
+    
+                    .open & {
+                        background: transparent;
+    
+                        &::before {
+                            transform: translateY(0px) rotate(45deg);
+                        }
+                        &::after {
+                            transform: translateY(0px) rotate(-45deg);
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (min-width: 720px) {
+            display: none;
+        }
+    }
+}

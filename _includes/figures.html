@@ -1,0 +1,14 @@
+<div class="figures">
+    <div class="constraint">
+        {% for figure in include.figures %}
+        <figure>
+            <a href="{{figure.link}}">
+                <img src="{{figure.image}}" alt="{{figure.title}}">
+                <figcaption>
+                    {{figure.title}} &rarr;
+                </figcaption>
+            </a>
+        </figure>
+        {% endfor %}
+    </div>
+</div>

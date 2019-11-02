@@ -1,0 +1,49 @@
+.figures {
+    margin: 3rem 0;
+
+    .constraint {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    figure {
+        flex-basis: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        
+        figcaption {
+            padding: 1em;
+            text-align: center;
+            font-size: 1.25em;
+            font-family: $secondary-font-stack;
+        }
+        
+        a {
+            display: block;
+            text-decoration: none;
+            border: 1px solid#909199;
+            border-radius: 4px;
+            overflow: hidden;
+
+            &:hover {
+                background-color: #18181e;
+                border-color: $primary-color;
+            }
+        }
+        & + figure {
+            margin-top: 1.5rem;
+        }
+    }
+
+    @media (min-width: 720px) {
+        figure {
+            flex-basis: 48%;
+            margin: 0;
+
+            & + figure {
+                margin-top: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+<div class="hero">
+    <div class="constraint">
+        {% if page.layout == "home" %}
+        <p>
+            <img src="/assets/images/peter-anglea-headshot-bw.jpg" alt="Peter Anglea" class="portrait">
+        </p>
+        <h1>Peter Anglea</h1>
+        <p class="subtitle">Composer, musician, web developer, hymn writer</p>
+        {% else %}
+        {% if page.hero_image %}
+        <p class="hero_image {{page.hero_image.class}}">
+            <img src="{{page.hero_image.src}}" alt="{{page.title}}">
+        </p>
+        {% endif %}
+        <h1>{{page.title}}</h1>
+        {% if page.subtitle %}<p class="subtitle">{{page.subtitle}}</p>{% endif %}
+        {% endif %}
+    </div>
+</div>
