@@ -1,41 +1,47 @@
 ---
-title: Jubilate Deo
-subtitle: SATB divisi (or SSAA) with piano accompaniment; from <em>Three Latin Psalms</em>
-description: This is, by far, my best-selling piece. The mixed-meter rhythms are fun to sing and accessible even for high school or middle school choirs. It is available in SATB or SSAA voicing.
+title: Non Nobis
+subtitle: SATB divisi with piano accompaniment; from <em>Three Latin Psalms</em>
+description: Part of Three Latin Psalms, this piece is a companion to my more well-known “Jubilate Deo.” The text is based on Psalm 115.
 hero_image:
-    src: /assets/images/cover-jubilate-deo.jpg
+    src: /assets/images/cover-non-nobis.jpg
     class: booklet
 layout: page
 ---
 
 {% capture content %}
-This is, by far, my best-selling piece. The mixed-meter rhythms are fun to sing and accessible even for high school or middle school choirs. It is available in SATB or SSAA voicing.
+Part of *Three Latin Psalms*, this piece is a companion to my more well-known “[Jubilate Deo]({% link music/jubilate-deo.md %}).” The text is based on Psalm 115.
 
-[**Purchase SATB &rarr;**](https://www.jwpepper.com/Jubilate-Deo/10445795.item#/){: .button}
-[**Purchase SSAA &rarr;**](https://www.jwpepper.com/Jubilate-Deo-SSAA/10873705.item){: .button}
+[**Purchase (J.W. Pepper) &rarr;**](https://www.jwpepper.com/Non-Nobis/10589939.item){: .button}
 {: .center}
 
 * * *
 
-{% include youtube.html video-id="WDW1dHPaSQ0" %}
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/140632409&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 * * *
 
-![Editor's Choice](/assets/images/badge-editors-choice.jpg)
-![Basic Library](/assets/images/badge-basic-library.jpg)
-{: .center}
-
-> “This superb setting of the traditional Latin text from Psalm 100 fairly dances off the page in joy! Singable, natural-sounding mixed meter, a memorable melodic line, and a buoyant feel throughout make this one of the most appealing and musically satisfying works you will hear. Highly recommended!”
+> “The traditional Latin text is treated with reverence and tenderness in this accessible accompanied setting. After a chant-like opening in the male voices, the piano sets the pace as the theme is woven into a rich choral texture.”
 >
 > <cite>J.W. Pepper</cite>
+
+> “*Non Nobis* is a setting of Psalm 115:1-2, the first of *Three Latin Psalms* composed by Peter Anglea in 2011. In this beautifully reflective piece, *Non Nobis* reminds us that ‘not unto us, O Lord, but to Thy name give the glory.’ It will be successful either in a concert or worship setting.”
+>
+> <cite>Hinshaw Music</cite>
 
 * * *
 
 ## Program Notes
 
-*“Make a joyful noise unto the Lord, all ye lands. Serve the Lord with gladness: come before his presence with singing. For the Lord is good; his mercy is everlasting; and his truth endureth to all generations”* (Psalm 100:1, 5). 
+*“Not unto us, O Lord, not unto us, but unto thy name give glory, for thy mercy, and for thy truth’s sake. Wherefore should the heathen say, Where is now their God?”* (Psalm 115:1–2). 
 
-I decided upon an asymmetrical meter (10/8) for this piece because it brings energy and exuberance to the music and because it fits the declamation of the text perfectly. The form is a modified rondo in which the recurring theme is the one set in 10/8. The rest of the piece bounces between differing meters – 6/8, 3/4, 4/4, and even 8/8. The layering of different rhythms on top of each other helps build the momentum and excitement throughout.
+Many settings of the Non Nobis that I have come across, particularly those associated with the various adaptations of Henry V, are very noble and regal in nature and contain one powerful melodic line that is repeated with increasing intensity and boldness. My setting takes this idea of a recurring melodic line but with a more reverential approach. The tune is first stated a cappella by the tenors and basses in a chant-like manner. From there it is repeated, developed, interspersed with contrasting material, and eventually climaxes with 8-part divisi and soprano descant. The pieces ends as it began with a slow, chant-like statement of the tune from the tenors and basses.
 
+* * *
+
+## Related pieces
+
+* [![Thumbnail](/assets/images/cover-sicut-cervus.jpg) Sicut Cervus]({% link music/sicut-cervus.md %})
+* [![Thumbnail](/assets/images/cover-jubilate-deo.jpg) Jubilate Deo]({% link music/jubilate-deo.md %})
+{: .thumbnail-list}
 {% endcapture %}
 {% include content.html content=content %}

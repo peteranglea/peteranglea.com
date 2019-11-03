@@ -43,8 +43,8 @@ I decided upon an asymmetrical meter (10/8) for this piece because it brings ene
 
 These two are part of the larger set, “Three Latin Psalms,” that Jubilate Deo comes from.
 
-* [![Thumbnail](https://placekitten.com/100/100) Non Nobis]({% link music/non-nobis.md %})
-* [![Thumbnail](https://placekitten.com/100/100) Sicut Cervus]({% link music/sicut-cervus.md %})
+* [![Thumbnail](/assets/images/cover-non-nobis.jpg) Non Nobis]({% link music/non-nobis.md %})
+* [![Thumbnail](/assets/images/cover-sicut-cervus.jpg) Sicut Cervus]({% link music/sicut-cervus.md %})
 {: .thumbnail-list}
 {% endcapture %}
 {% include content.html content=content %}
