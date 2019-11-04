@@ -14,15 +14,15 @@ layout: page
 ## Christmas
 
 * [![Thumbnail](/assets/images/cover-silent-night.jpg) Silent Night]({% link music/silent-night.md %})
-* [![Thumbnail](/assets/images/cover-angels-we-have-heard-on-high.jpg) Angels We Have Heard on High](#)
+* [![Thumbnail](/assets/images/cover-angels-we-have-heard-on-high.jpg) Angels We Have Heard on High]({% link music/angels-we-have-heard-on-high.md %})
 {: .thumbnail-list}
 
 ## General Sacred
 
-* [![Thumbnail](/assets/images/cover-thy-will-be-done.jpg) Thy Will Be Done (The Lord’s Prayer)](#)
+* [![Thumbnail](/assets/images/cover-thy-will-be-done.jpg) Thy Will Be Done (The Lord’s Prayer)]({% link music/thy-will-be-done.md %})
+* [![Thumbnail](/assets/images/cover-psalm-150.jpg) Psalm 150]({% link music/psalm-150.md %})
+* [![Thumbnail](/assets/images/cover-benediction.jpg) Benediction]({% link music/benediction.md %})
 * [![Thumbnail](/assets/images/cover-gods-sufficient-word.jpg) God’s Sufficient Word](#)
-* [![Thumbnail](/assets/images/cover-psalm-150.jpg) Psalm 150](#)
-* [![Thumbnail](/assets/images/cover-benediction.jpg) Benediction](#)
 * [![Thumbnail](/assets/images/cover-o-thou-in-whose-presence.jpg) O Thou in Whose Presence](#)
 {: .thumbnail-list}
 {% endcapture %}

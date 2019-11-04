@@ -1,6 +1,6 @@
 ---
 title: Silent Night
-subtitle: SATB with piano accompaniment or full orchestration</em>
+subtitle: SATB with piano accompaniment or full orchestration
 description: I put a new tune to the familiar text of Silent Night and also incorporated the familiar "Stille Nacht" tune. This arrangement has been orchestrated by Christian Guebert and was performed on PBS stations across the nation in 2018.
 hero_image:
     src: /assets/images/cover-silent-night.jpg
@@ -47,6 +47,13 @@ Several choir directors have asked for this original version after seeing the Yo
 
 {% include youtube.html video-id="GTAr6SDUgMw" %}
 
+* * *
+
+## If you like this...
+
+Here’s another Christmas arrangement of mine for your consideration.
+
+* [![Thumbnail](/assets/images/cover-angels-we-have-heard-on-high.jpg) Angels We Have Heard on High]({% link music/angels-we-have-heard-on-high.md %})
 {: .thumbnail-list}
 {% endcapture %}
 {% include content.html content=content %}
