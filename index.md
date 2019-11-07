@@ -9,7 +9,7 @@ layout: home
 
 **Peter is an award-winning web developer with 15+ years of experience.** His work in front-end development, particularly in higher education, has been recognized with multiple industry awards.
 
-[Read more about Peter &rarr;]({% link about.md %})
+[Read more about Peter &rarr;]({% link bio.md %})
 {% endcapture %}
 {% include content.html content=content %}
 

@@ -22,8 +22,8 @@ layout: page
 * [![Thumbnail](/assets/images/cover-thy-will-be-done.jpg) Thy Will Be Done (The Lord’s Prayer)]({% link music/thy-will-be-done.md %})
 * [![Thumbnail](/assets/images/cover-psalm-150.jpg) Psalm 150]({% link music/psalm-150.md %})
 * [![Thumbnail](/assets/images/cover-benediction.jpg) Benediction]({% link music/benediction.md %})
-* [![Thumbnail](/assets/images/cover-gods-sufficient-word.jpg) God’s Sufficient Word](#)
-* [![Thumbnail](/assets/images/cover-o-thou-in-whose-presence.jpg) O Thou in Whose Presence](#)
+* [![Thumbnail](/assets/images/cover-gods-sufficient-word.jpg) God’s Sufficient Word]({% link music/gods-sufficient-word.md %})
+* [![Thumbnail](/assets/images/cover-o-thou-in-whose-presence.jpg) O Thou in Whose Presence]({% link music/o-thou-in-whose-presence.md %})
 {: .thumbnail-list}
 {% endcapture %}
 {% include content.html content=content %}
