@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{page.title}}{% unless page.layout == "home" %} — Peter Anglea{% endunless %}</title>
+    {% include gtm-script.html %}
     <meta name="description" content="{{page.description}}">
     <link href="https://fonts.googleapis.com/css?family=Spectral:400,700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="/assets/css/styles.css">
@@ -17,6 +18,7 @@
     <meta property="og:site_name" content="{{site.name}}" />
 </head>
 <body>
+{% include gtm-noscript.html %}
     <header>
         <div class="constraint">
             <div class="header-home">

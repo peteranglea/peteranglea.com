@@ -6,6 +6,8 @@ layout: page
 ---
 
 {% capture content %}
+![Incipit](/assets/images/incipit-gods-sufficient-word.png){: .incipit}
+
 [**Free Download (CWM) &rarr;**](https://www.churchworksmedia.com/product/gods-sufficient-word-free/){: .button}
 {: .center}
 
