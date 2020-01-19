@@ -8,8 +8,7 @@ layout: page
 {% capture content %}
 ![Incipit](/assets/images/incipit-there-is-a-fountain.png){: .incipit}
 
-[**Full sheet**](/assets/docs/There-is-a-Fountain.pdf){: .button}
-[**Half sheet**](/assets/docs/There-is-a-Fountain-Half.pdf){: .button}
+[**Free download on Doxology.app &rarr;**](https://doxology.app/song/if-you-will-only-let-god-guide-you-l5pz0qk0/){: .button}
 {: .center}
 
 * * *
