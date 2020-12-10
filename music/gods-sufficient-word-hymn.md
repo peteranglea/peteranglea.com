@@ -8,7 +8,7 @@ layout: page
 {% capture content %}
 ![Incipit](/assets/images/incipit-gods-sufficient-word.png){: .incipit}
 
-[**Free Download (CWM) &rarr;**](https://www.churchworksmedia.com/product/gods-sufficient-word-free/){: .button}
+[**Free Download on Doxology.app &rarr;**](https://doxology.app/song/gods-sufficient-word-61q08pnl/){: .button} [**Download at CWM &rarr;**](https://www.churchworksmedia.com/product/gods-sufficient-word-free/){: .button}
 {: .center}
 
 * * *
