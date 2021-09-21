@@ -6,6 +6,7 @@ layout: page
 ---
 
 {% capture content %}
+* [My Soul Is Thirsty for Jehovah]({% link music/my-soul-is-thirsty-for-jehovah.md %})
 * [God’s Sufficient Word]({% link music/gods-sufficient-word-hymn.md %})
 * [My Faith Has Found a Resting Place]({% link music/my-faith-has-found-a-resting-place.md %})
 * [There is a Fountain]({% link music/there-is-a-fountain.md %})
