@@ -8,7 +8,7 @@ subtitle: For the record, Anglea is pronounced “angel”
 
 ## Composer Bio
 
-Peter Anglea (b. 1988) is a graduate of Bob Jones University in Greenville, SC. He received a master’s degree in composition in 2011, studying with and being mentored by faculty such as Dan Forrest, Dwight Gustafson, Joan Pinkston, Warren Cook, and others. An emerging young composer, Peter’s works have been featured at Piccolo Spoleto, Regional and National ACDA events, as well as numerous collegiate concerts and recitals worldwide. He has published works with Hinshaw Music, Beckenhorst Press, and The Lorenz Corporation. He is a member of the Rivertree Singers of Greenville, SC and serves as the choir director at Community Baptist Church of Greer, SC. Peter and his wife, Rebekah, reside in Greenville, SC.
+Peter Anglea (b. 1988) is a graduate of Bob Jones University in Greenville, SC. He received a master’s degree in composition in 2011, studying with and being mentored by faculty such as Dan Forrest, Dwight Gustafson, Joan Pinkston, Warren Cook, and others. An emerging young composer, Peter’s works have been featured at Piccolo Spoleto, Regional and National ACDA events, as well as numerous collegiate concerts and recitals worldwide. He has published works with Hinshaw Music, Beckenhorst Press, and The Lorenz Corporation. He is a former member of the Rivertree Singers of Greenville, SC and previously served as the music director at Community Baptist Church of Greer, SC. Peter and his wife, Rebekah, reside in Middleborough, MA.
 
 [**See some of Peter’s music &rarr;**]({% link music.md %})
 
